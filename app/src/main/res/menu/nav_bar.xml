@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/home_icon"/>
+    <item android:title="album"
+        android:id="@+id/album"
+        android:icon="@drawable/album"/>
+    <item
+        android:id="@+id/Capture_icon"
+        android:icon="@drawable/capture"
+        android:title="Capture" />
+    <item android:title="Connect360"
+        android:id="@+id/connect360"
+        android:icon="@drawable/connect360"/>
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"/>
+
+</menu>
