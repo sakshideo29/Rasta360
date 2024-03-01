@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/log_in"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/icon" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    android:textSize="30dp"
+    android:text="Rasta 360"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/logincardview"
+        android:layout_width="257dp"
+        android:layout_height="43dp"
+       android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="200dp" >
+
+        <EditText
+            android:id="@+id/editTextEmailPhone"
+            android:layout_width="257dp"
+            android:layout_height="43dp"
+            android:background="@android:color/transparent"
+            android:hint="Mobile Number"
+            android:gravity="center"
+            android:layout_margin="4dp"
+            android:inputType="textEmailAddress"></EditText>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="257dp"
+        android:layout_height="43dp"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="25dp" >
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="257dp"
+            android:layout_height="43dp"
+            android:background="@android:color/transparent"
+           android:gravity="center"
+            android:hint="Password"
+            android:layout_margin="4dp"
+            android:inputType="textEmailAddress"></EditText>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="250dp"
+        android:textColor="@color/white"
+        android:text="Reset Password" />
+
+    <ImageButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="116dp"
+        android:layout_height="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/login_button" />
+
+
+
+
+
+</LinearLayout>
